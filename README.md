@@ -2,6 +2,8 @@
 
 Script that given two gifs and one audio file creates an mp4 video with the two gifs vertically stacked and the mp3 track as main audio track. The output file has the name of the first gif with the mp4 extension. It scales everything to the width of the first gif. Since it calculates the duration of the final video as  the shortest between the least common multiplier of the duration of the two gifs and the audio track, it could result in a quite big output file.
 
+Needs ffmpeg and exiftool to run.
+
 # Usage example
 We use:
 - Tesseract.gif - By Jason Hise at English Wikipedia - Transferred from en.wikipedia to Commons.Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1493225
